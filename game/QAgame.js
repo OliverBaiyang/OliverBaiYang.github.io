@@ -1,9 +1,3 @@
-$(document).ready(function() {
-
-	$("#start").click(function() {
-		$("#start").hide();
-	});
-});
 
 
 
@@ -136,7 +130,7 @@ var breakfast = prompt("which item was not included in the English full breakfas
         break;
         
           case 'B':
-        alert("You are correct! $10000 for you!");  
+        alert("You are correct! $10000 for you!");
         correctAnswer = 1;
         break;
         
@@ -268,7 +262,9 @@ var book = prompt("What is NaCl?   a.Salt   b.sugar   c.flour   d.Water").toUppe
         break;
               
           case 'D':
-        alert("sorry, you losts.
+        alert("sorry, you lost. you've won $0.");
+      
+       break;
               
           default:
               alert("Wrong! Please type the letters!");
@@ -290,7 +286,7 @@ var book = prompt("what is 'A'?   a.  letter A   b.  unfinished pac man drawing 
         alert("sorry, you lost. you've won $0.");
         
         break;
-        q,mm
+        
           case 'C':
         alert("sorry, you lost. you've won $0.");
        
